@@ -8,10 +8,10 @@
 #define IN4 9
 #define ENB 10
 
-int trigPin = 11;
-int echoPin = 12;
-int servo = 3;
-bool bl_sur[2];
+int trigPin = 11; //Phát âm
+int echoPin = 12; //Thu âm
+int servo = 3; // Quay mắt
+bool bl_sur[2]; //0-trái; 1-Phải
 Servo Head;
 
 int Q[181];  //mảng giá trị xác định thời gian quay => góc quay
